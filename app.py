@@ -12,6 +12,8 @@ class RobotController(QMainWindow):
         super().__init__()
         loadUi('./resources/ui.ui', self)
 
+        self.setWindowTitle('robot controller')
+
         # 버튼에 대한 클릭 이벤트 핸들러 연결
         self.connectButton.clicked.connect(self.connect_robot)
         self.disconnectButton.clicked.connect(self.disconnect_robot)
