@@ -23,6 +23,6 @@ YOLOv5의 실시간 객체 인식을 이용한 Native app이다.<br>
 4. **DISCONNECT** : 로봇과 통신을 해제한다.
 
 ## 실행 화면
-![image](https://github.com/kingodjerry/yolov5_nativeapp/assets/143167244/0af9701d-e5c3-47cf-a6e5-558ee6bc87f4)
-![image](https://github.com/kingodjerry/yolov5_nativeapp/assets/143167244/461851ae-f106-444e-adf3-324a83dc1574)
+| ![image](https://github.com/kingodjerry/yolov5_nativeapp/assets/143167244/0af9701d-e5c3-47cf-a6e5-558ee6bc87f4) | ![image](https://github.com/kingodjerry/yolov5_nativeapp/assets/143167244/461851ae-f106-444e-adf3-324a83dc1574) |
+|:---:|:---:|
 
