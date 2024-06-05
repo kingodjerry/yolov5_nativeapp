@@ -19,7 +19,7 @@ class ObjectDetector:
         n = len(labels)
         for i in range(n):
             row = cords[i]
-            if row[4] >= 0.2:  # confidence threshold
+            if row[4] >= 0.2:
                 x1, y1, x2, y2 = int(row[0] * frame.shape[1]), int(row[1] * frame.shape[0]), int(row[2] * frame.shape[1]), int(row[3] * frame.shape[0])
                 # 사람 감지
                 if self.model.names[int(labels[i])] == 'person':
